@@ -1,0 +1,12 @@
+---
+
+common_users:
+- name: testuser1
+  admin: true
+  ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC5xkLdcD4qHygIR114LKqqj68hkw3V28R5oq0VgtUwIPhTWrOka2TLtnXlRmKtk3yOyJ5yN0QTAiOfAM00mvilD0gpyLTIvulcJx5dEvLUHROgqdVVuaPs5XSVRNHxz4lccRllpPlzGwT8mXDM2vqJvTq6YB1Wn5i2WZVvWhQysr5AF6XbBH2sz8rD2Cq9+L8C0S04z1Fj1ucXmngaXXGDCkvQPpkiy08feRxDkVqnhNrcF2pJRf/HrZXXve8L8SFAbJzgKrbrwDyBg4JgTVVis48kyd/7nRBk01uPwWDiZGTFnTCyCOjkyjNB87GmlnYH+rv4Dptz4EeAkNuWoSOt8B4/Yz8jYuGG5g0BajU6tjOtIwj3Km/rCqcbkxlbUB8IuPY+uoXQttJ2JXQx3KHVpCcLt8H9KOPzNJbHXd6AplMLAF2QwPGSlfSqWGeg/8+RaBrGcUSAOrrj4k4H+p+qB0kFhX5v9ihaJphLB7q0y0zcaGBoxisbd6C32IiPBec= fake-key1"
+- name: testuser2
+  admin: true
+  ssh_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAzZI6JpPTfvhn8VlsR8h4ihMplLoddDzg6kD2FQBZ35 fake-pubkey2"
+- name: nonadmin1
+  admin: false
+  ssh_key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOoKKxbmxwbxB3pCn9TDTjHC1wceN31yY9lGJBXHA//i"

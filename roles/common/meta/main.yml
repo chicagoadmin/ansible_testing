@@ -1,0 +1,18 @@
+galaxy_info:
+  my_name: common
+  author: chicagoadmin
+  description: Common role
+  company: chicagoadmin
+
+  license: all rights
+
+  min_ansible_version: 4.0
+
+  platforms:
+    - name: Ubuntu
+      versions:
+      - 20.04
+
+  galaxy_tags: []
+
+dependencies: []
